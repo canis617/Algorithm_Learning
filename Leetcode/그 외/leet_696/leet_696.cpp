@@ -15,10 +15,9 @@ public:
         while (*(p2-1) != s[s.length-1]){
             if (*p1 == *p2) {
                 p_count++;
-
             }
             else{
-
+                p1 = p2;
             }
         }
     }
